@@ -1,0 +1,13 @@
+shapefile: data file format used to represent items on a map
+geometry: a vector (generally a column in a dataframe) used to represent points, polygons, and other geometric shapes or locations, usually represented as well-known text (WKT)
+polygon: an area
+point: a specific location
+basemap: the background setting for a map, such as county borders in California
+projection: since the Earth is a 3D spheroid, chose a method for how an area gets flattened into 2D map, using some coordinate reference system (CRS)
+colormap: choice of a color palette for rendering data, selected with the cmap parameter
+overplotting: stacking several different plots on top of one another
+choropleth: using different hues to color polygons, as a way to represent data levels
+kernel density estimation: a data smoothing technique (KDE) that creates contours of shading to represent data levels
+cartogram: warping the relative area of polygons to represent data levels
+quantiles: binning data values into a specified number of equal-sized groups
+voronoi diagram: dividing an area into polygons such that each polygon contains exactly one generating point and every point in a given polygon is closer to its generating point than to any other; also called a Dirichlet tessellation
